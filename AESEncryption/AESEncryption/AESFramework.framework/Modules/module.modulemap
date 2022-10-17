@@ -1,0 +1,11 @@
+framework module AESFramework {
+  umbrella header "AESFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module AESFramework.Swift {
+  header "AESFramework-Swift.h"
+  requires objc
+}
